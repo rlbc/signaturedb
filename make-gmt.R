@@ -1,5 +1,5 @@
 if (!require("pacman")) install.packages("pacman")
-pacman::p_load(readxl, dplyr, tidyr)
+pacman::p_load(readxl, dplyr)
 
 table <- readxl::read_xlsx(path = "SignatureDB_annotation_012422.xlsx")
 
